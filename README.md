@@ -203,15 +203,6 @@ Extend the formular for file metadata with additional classification information
 The base plugin has an endpoint that provides the metadata of all published files including links to the files as JSON. If the preferred way to load the data from Moodle is not via
 this pull service, but via upload, an additional plugin can be defined which enables the upload to a repository.
 
-## Subplugins used by Graz University of Technology
-
-moodle-oermod_resource (bundled with local_oer)  
-moodle-oermod_folder (bundled with local_oer)  
-[moodle-oermod_opencast](https://github.com/llttugraz/moodle-oermod_opencast)  
-[moodle-oercourseinfo_tugraz](https://github.com/llttugraz/moodle-oercourseinfo_tugraz)  
-[moodle-oerclassifcation_oefos](https://github.com/llttugraz/moodle-oerclassification_oefos)  
-[moodle-oeruploader_tugraz](https://github.com/llttugraz/moodle-oeruploader_tugraz)
-
 # Accessibility Status
 
 In accordance with the [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/), the following four principles must be fulfilled / taken into account in order to achieve accessibility in our products / services.
@@ -236,11 +227,3 @@ The following personal data are stored:
 | userid      | The ID of the user who is in the list of using OER metadata tools |
 | timecreated | Time when clearance was set                                       |
 | type        | Type of clearance                                                 |
-
-## License
-
-This plugin is licensed under the [GNU GPL v3](https://github.com/llttugraz/moodle-local_lytix?tab=GPL-3.0-1-ov-file).
-
-## Contributors
-
-- **Ortner, Christian** - Developer - [GitHub](https://github.com/chriso123)
